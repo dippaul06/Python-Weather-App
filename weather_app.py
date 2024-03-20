@@ -5,8 +5,8 @@ class WeatherApp:
     def __init__(self, api_key):
         self.app = Flask(__name__, template_folder='template')
         self.weather_fetcher = WeatherFetcher(api_key)
-        self.app.add_url_rule('/', view_func=self.index, methods=['GET']) #
-        self.app.add_url_rule('/weather', view_func=self.weather, methods=['POST']) #
+        self.app.add_url_rule('/', view_func=self.index, methods=['GET'])
+        self.app.add_url_rule('/weather', view_func=self.weather, methods=['POST'])
 
     def index(self):
         return render_template('index.html')
