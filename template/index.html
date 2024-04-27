@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Enter City Name</h1>
-    <form action="/weather" method="post">
-        <input type="text" name="city" required>
-        <button type="submit">Get Weather</button>
-    </form>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Weather App</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form action="/weather" method="post">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" name="city" placeholder="Enter City Name" required>
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit">Get Weather</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
