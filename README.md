@@ -3,8 +3,12 @@
 
 A demo weather app using Python and Flask. The API used is from Openweather https://openweathermap.org/. 
 
-![brave_mAEEWThcIr](https://github.com/dippaul06/Python-Weather-App/assets/13049085/478102d7-8eee-46db-bf8b-8d3ed44407a9)
+Opening Page:
 
-![brave_2wWOTxSTDs](https://github.com/dippaul06/Python-Weather-App/assets/13049085/6f663d4c-ef11-4487-bc64-2a6f6dbe3bda)
+<img width="914" alt="Screenshot 2024-04-27 at 18 00 40" src="https://github.com/dippaul06/Python-Weather-App/assets/13049085/832a1bc3-d150-4cdc-9d87-ffadbcd619d5">
 
-![brave_tEseTRTm4Z](https://github.com/dippaul06/Python-Weather-App/assets/13049085/df78fe10-1d45-4cda-9692-f7bef21c5e8a)
+Entering City Name:
+<img width="902" alt="Screenshot 2024-04-27 at 18 00 50" src="https://github.com/dippaul06/Python-Weather-App/assets/13049085/fae9f3fe-28f5-4be3-95ba-7e38f29bbd1e">
+
+Result Page:
+<img width="1312" alt="Screenshot 2024-04-27 at 18 00 57" src="https://github.com/dippaul06/Python-Weather-App/assets/13049085/feaf168e-d4c6-40fb-a16e-82781fb1b245">
